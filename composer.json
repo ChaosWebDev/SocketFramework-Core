@@ -1,5 +1,5 @@
 {
-    "name": "chaos/core",
+    "name": "chaoswd/core",
     "description": "Core framework utilities for Chaos apps",
     "type": "library",
     "require": {
