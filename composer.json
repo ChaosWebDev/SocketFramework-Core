@@ -4,17 +4,8 @@
     "type": "library",
     "require": {
         "php": "^8.2",
-        "chaos/dotenv": "*"
+        "chaoswd/dotenv": "*"
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../dotenv",
-            "options": {
-                "symlink": true
-            }
-        }
-    ],
     "autoload": {
         "psr-4": {
             "Chaos\\Core\\": "src/",
