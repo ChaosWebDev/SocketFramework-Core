@@ -1,0 +1,28 @@
+{
+    "name": "chaos/core",
+    "description": "Core framework utilities for Chaos apps",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+        "chaos/dotenv": "*"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../dotenv",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Chaos\\Core\\": "src/",
+            "Chaos\\Sockets\\": "src/Sockets/"
+        },
+        "files": [
+            "src/Support/helpers.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
